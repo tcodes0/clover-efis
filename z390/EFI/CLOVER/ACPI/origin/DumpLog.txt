@@ -1,0 +1,162 @@
+114:914  29:291  Found BIOS RSDP at F0010
+114:914  0:000  Printing ACPI tables from RSDP F0010 ...
+114:914  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+114:914  0:000    (Xsdt: 85EE00A8, Rsdt: 85EE0028)
+114:914  0:000    85EE00A8: 'XSDT', 'A M I', Rev: 1, Len: 196
+114:914  0:000    85EE0028: 'RSDT', 'A M I', Rev: 1, Len: 116
+114:914  0:000    Tables in Xsdt: 20
+114:914  0:000    0. 85F206C0: 'FACP', 'A M I', Rev: 6, Len: 276
+114:914  0:000        (Dsdt: 85EE0200, Facs: 85FB9080, XDsdt: 85EE0200, XFacs: 0)
+114:914  0:000        85EE0200: 'DSDT', 'A M I', Rev: 2, Len: 263360
+114:914  0:000        85FB9080: 'FACS', Ver: 2, Len: 64
+114:914  0:000    1. 85F207D8: 'APIC', 'A M I', Rev: 4, Len: 160
+114:914  0:000    2. 85F20878: 'FPDT', 'A M I', Rev: 1, Len: 68
+114:914  0:000    3. 85F208C0: 'FIDT', 'A M I', Rev: 1, Len: 156
+114:914  0:000    4. 85F20960: 'MCFG', 'A M I', Rev: 1, Len: 60
+114:914  0:000    5. 85F2D570: 'WSMT', 'A M I', Rev: 1, Len: 40
+114:914  0:000    6. 85F209F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+114:914  0:000    7. 85F22518: 'SSDT', 'SaSsdt', Rev: 2, Len: 12441
+114:914  0:000    8. 85F255B8: 'HPET', 'A M I', Rev: 1, Len: 56
+114:914  0:000    9. 85F255F0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014
+114:914  0:000    10. 85F265A0: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12241
+114:914  0:000    11. 85F29578: 'UEFI', 'A M I', Rev: 1, Len: 66
+114:914  0:000    12. 85F295C0: 'LPIT', 'A M I', Rev: 1, Len: 148
+114:914  0:000    13. 85F29658: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+114:914  0:000    14. 85F2BE38: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346
+114:914  0:000    15. 85F2D320: 'DBGP', 'A M I', Rev: 1, Len: 52
+114:914  0:000    16. 85F2D358: 'DBG2', 'A M I', Rev: 0, Len: 84
+114:914  0:000    17. 85F2D3B0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+114:914  0:000    18. 85F2D4F8: 'BGRT', 'A M I', Rev: 1, Len: 56
+114:914  0:000    19. 85F2D530: 'WPBT', 'A M I', Rev: 1, Len: 60
+114:914  0:000    Tables in Rsdt: 20
+114:914  0:000    0. 85EE0178: 'FACP', 'A M I', Rev: 2, Len: 132
+114:914  0:000        (Dsdt: 85EE0200, Facs: 85FB9040)
+114:914  0:000        85EE0200: 'DSDT', 'A M I', Rev: 2, Len: 263360
+114:914  0:000        85FB9040: 'FACS', Ver: 0, Len: 64
+114:914  0:000    1. 85F207D8: 'APIC', 'A M I', Rev: 4, Len: 160
+114:914  0:000    2. 85F20878: 'FPDT', 'A M I', Rev: 1, Len: 68
+114:914  0:000    3. 85F208C0: 'FIDT', 'A M I', Rev: 1, Len: 156
+114:914  0:000    4. 85F20960: 'MCFG', 'A M I', Rev: 1, Len: 60
+114:914  0:000    5. 85F2D570: 'WSMT', 'A M I', Rev: 1, Len: 40
+114:914  0:000    6. 85F209F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+114:914  0:000    7. 85F22518: 'SSDT', 'SaSsdt', Rev: 2, Len: 12441
+114:914  0:000    8. 85F255B8: 'HPET', 'A M I', Rev: 1, Len: 56
+114:914  0:000    9. 85F255F0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014
+114:914  0:000    10. 85F265A0: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12241
+114:914  0:000    11. 85F29578: 'UEFI', 'A M I', Rev: 1, Len: 66
+114:914  0:000    12. 85F295C0: 'LPIT', 'A M I', Rev: 1, Len: 148
+114:914  0:000    13. 85F29658: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+114:914  0:000    14. 85F2BE38: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346
+114:914  0:000    15. 85F2D320: 'DBGP', 'A M I', Rev: 1, Len: 52
+114:914  0:000    16. 85F2D358: 'DBG2', 'A M I', Rev: 0, Len: 84
+114:914  0:000    17. 85F2D3B0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+114:914  0:000    18. 85F2D4F8: 'BGRT', 'A M I', Rev: 1, Len: 56
+114:914  0:000    19. 85F2D530: 'WPBT', 'A M I', Rev: 1, Len: 60
+114:914  0:000  Found UEFI Acpi 2.0 RSDP at 85EE0000
+114:914  0:000  Saving ACPI tables from RSDP 85EE0000 to EFI\CLOVER\ACPI\origin ...
+114:914  0:000   85EE0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+118:833  3:918    (Xsdt: 85EE00A8, Rsdt: 85EE0028)
+118:833  0:000    85EE00A8: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+118:958  0:124    85EE0028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+119:109  0:150    Tables in Xsdt: 20
+119:109  0:000    0. 85F206C0: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+119:243  0:133        (Dsdt: 85EE0200, Facs: 85FB9080, XDsdt: 85EE0200, XFacs: 0)
+119:243  0:000        85EE0200: 'DSDT', 'A M I', Rev: 2, Len: 263360 -> DSDT.aml
+119:461  0:218        85FB9080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+119:593  0:132    1. 85F207D8: 'APIC', 'A M I', Rev: 4, Len: 160 -> APIC.aml
+119:723  0:130    2. 85F20878: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+119:858  0:134    3. 85F208C0: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+119:989  0:131    4. 85F20960: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+120:120  0:130    5. 85F2D570: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+120:254  0:134    6. 85F209F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940 -> SSDT-0.aml
+120:385  0:130    7. 85F22518: 'SSDT', 'SaSsdt', Rev: 2, Len: 12441 -> SSDT-1.aml
+120:516  0:131    8. 85F255B8: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+120:650  0:133    9. 85F255F0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014 -> SSDT-2.aml
+120:784  0:134    10. 85F265A0: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12241 -> SSDT-3.aml
+120:918  0:134    11. 85F29578: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+121:058  0:139    12. 85F295C0: 'LPIT', 'A M I', Rev: 1, Len: 148 -> LPIT.aml
+121:196  0:138    13. 85F29658: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-4.aml
+121:334  0:138    14. 85F2BE38: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346 -> SSDT-5.aml
+121:472  0:137    15. 85F2D320: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+121:609  0:136    16. 85F2D358: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+129:806  8:196    17. 85F2D3B0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324 -> SSDT-6.aml
+129:941  0:135    18. 85F2D4F8: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+134:141  4:199    19. 85F2D530: 'WPBT', 'A M I', Rev: 1, Len: 60 -> WPBT.aml
+134:290  0:149    Tables in Rsdt: 20
+134:290  0:000    0. 85EE0178: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+134:439  0:149        (Dsdt: 85EE0200, Facs: 85FB9040)
+134:439  0:000        85EE0200: 'DSDT', 'A M I', Rev: 2, Len: 263360
+134:439  0:000        85FB9040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+134:587  0:148    1. 85F207D8: 'APIC', 'A M I', Rev: 4, Len: 160
+134:587  0:000    2. 85F20878: 'FPDT', 'A M I', Rev: 1, Len: 68
+134:587  0:000    3. 85F208C0: 'FIDT', 'A M I', Rev: 1, Len: 156
+134:587  0:000    4. 85F20960: 'MCFG', 'A M I', Rev: 1, Len: 60
+134:587  0:000    5. 85F2D570: 'WSMT', 'A M I', Rev: 1, Len: 40
+134:587  0:000    6. 85F209F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+134:587  0:000    7. 85F22518: 'SSDT', 'SaSsdt', Rev: 2, Len: 12441
+134:587  0:000    8. 85F255B8: 'HPET', 'A M I', Rev: 1, Len: 56
+134:587  0:000    9. 85F255F0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014
+134:588  0:000    10. 85F265A0: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12241
+134:588  0:000    11. 85F29578: 'UEFI', 'A M I', Rev: 1, Len: 66
+134:588  0:000    12. 85F295C0: 'LPIT', 'A M I', Rev: 1, Len: 148
+134:588  0:000    13. 85F29658: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+134:588  0:000    14. 85F2BE38: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346
+134:588  0:000    15. 85F2D320: 'DBGP', 'A M I', Rev: 1, Len: 52
+134:588  0:000    16. 85F2D358: 'DBG2', 'A M I', Rev: 0, Len: 84
+134:588  0:000    17. 85F2D3B0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+134:588  0:000    18. 85F2D4F8: 'BGRT', 'A M I', Rev: 1, Len: 56
+134:588  0:000    19. 85F2D530: 'WPBT', 'A M I', Rev: 1, Len: 60
+134:588  0:000  Found UEFI Acpi 1.0 RSDP at 85EE0000
+134:588  0:000  Printing ACPI tables from RSDP 85EE0000 ...
+134:588  0:000   85EE0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+134:588  0:000    (Xsdt: 85EE00A8, Rsdt: 85EE0028)
+134:588  0:000    85EE00A8: 'XSDT', 'A M I', Rev: 1, Len: 196
+134:588  0:000    85EE0028: 'RSDT', 'A M I', Rev: 1, Len: 116
+134:588  0:000    Tables in Xsdt: 20
+134:588  0:000    0. 85F206C0: 'FACP', 'A M I', Rev: 6, Len: 276
+134:588  0:000        (Dsdt: 85EE0200, Facs: 85FB9080, XDsdt: 85EE0200, XFacs: 0)
+134:588  0:000        85EE0200: 'DSDT', 'A M I', Rev: 2, Len: 263360
+134:588  0:000        85FB9080: 'FACS', Ver: 2, Len: 64
+134:588  0:000    1. 85F207D8: 'APIC', 'A M I', Rev: 4, Len: 160
+134:588  0:000    2. 85F20878: 'FPDT', 'A M I', Rev: 1, Len: 68
+134:588  0:000    3. 85F208C0: 'FIDT', 'A M I', Rev: 1, Len: 156
+134:588  0:000    4. 85F20960: 'MCFG', 'A M I', Rev: 1, Len: 60
+134:588  0:000    5. 85F2D570: 'WSMT', 'A M I', Rev: 1, Len: 40
+134:588  0:000    6. 85F209F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+134:588  0:000    7. 85F22518: 'SSDT', 'SaSsdt', Rev: 2, Len: 12441
+134:588  0:000    8. 85F255B8: 'HPET', 'A M I', Rev: 1, Len: 56
+134:588  0:000    9. 85F255F0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014
+134:588  0:000    10. 85F265A0: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12241
+134:588  0:000    11. 85F29578: 'UEFI', 'A M I', Rev: 1, Len: 66
+134:588  0:000    12. 85F295C0: 'LPIT', 'A M I', Rev: 1, Len: 148
+134:588  0:000    13. 85F29658: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+134:588  0:000    14. 85F2BE38: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346
+134:588  0:000    15. 85F2D320: 'DBGP', 'A M I', Rev: 1, Len: 52
+134:588  0:000    16. 85F2D358: 'DBG2', 'A M I', Rev: 0, Len: 84
+134:588  0:000    17. 85F2D3B0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+134:588  0:000    18. 85F2D4F8: 'BGRT', 'A M I', Rev: 1, Len: 56
+134:588  0:000    19. 85F2D530: 'WPBT', 'A M I', Rev: 1, Len: 60
+134:588  0:000    Tables in Rsdt: 20
+134:588  0:000    0. 85EE0178: 'FACP', 'A M I', Rev: 2, Len: 132
+134:588  0:000        (Dsdt: 85EE0200, Facs: 85FB9040)
+134:588  0:000        85EE0200: 'DSDT', 'A M I', Rev: 2, Len: 263360
+134:588  0:000        85FB9040: 'FACS', Ver: 0, Len: 64
+134:588  0:000    1. 85F207D8: 'APIC', 'A M I', Rev: 4, Len: 160
+134:588  0:000    2. 85F20878: 'FPDT', 'A M I', Rev: 1, Len: 68
+134:588  0:000    3. 85F208C0: 'FIDT', 'A M I', Rev: 1, Len: 156
+134:588  0:000    4. 85F20960: 'MCFG', 'A M I', Rev: 1, Len: 60
+134:588  0:000    5. 85F2D570: 'WSMT', 'A M I', Rev: 1, Len: 40
+134:588  0:000    6. 85F209F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+134:588  0:000    7. 85F22518: 'SSDT', 'SaSsdt', Rev: 2, Len: 12441
+134:588  0:000    8. 85F255B8: 'HPET', 'A M I', Rev: 1, Len: 56
+134:588  0:000    9. 85F255F0: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014
+134:588  0:000    10. 85F265A0: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12241
+134:588  0:000    11. 85F29578: 'UEFI', 'A M I', Rev: 1, Len: 66
+134:588  0:000    12. 85F295C0: 'LPIT', 'A M I', Rev: 1, Len: 148
+134:588  0:000    13. 85F29658: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+134:588  0:000    14. 85F2BE38: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346
+134:588  0:000    15. 85F2D320: 'DBGP', 'A M I', Rev: 1, Len: 52
+134:588  0:000    16. 85F2D358: 'DBG2', 'A M I', Rev: 0, Len: 84
+134:588  0:000    17. 85F2D3B0: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+134:588  0:000    18. 85F2D4F8: 'BGRT', 'A M I', Rev: 1, Len: 56
+134:588  0:000    19. 85F2D530: 'WPBT', 'A M I', Rev: 1, Len: 60
