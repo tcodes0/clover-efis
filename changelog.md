@@ -1,3 +1,6 @@
+## sep 14
+got ethernet and shutdown working, seems stable
+
 ## sep 13
 
 config-asus - config I was able to boot with before (args-device-smbios)
