@@ -10,6 +10,7 @@ branch update/clover-5070 has clover 70 and efis on 3e50b570b3a363df0bcd1585931b
 efi-vanilla has old ass clover
 efi-old, whatever stuff was in ther before
 efi-shuwdown has clover 5070 with mem fix drivers
+efi has 5070 release (shutdown too)
 
 ## sep 8
 
