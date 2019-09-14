@@ -252,7 +252,7 @@
 			<integer>8</integer>
 		</dict>
 		<key>Theme</key>
-		<string>OlarilaAnimation</string>
+		<string>embedded</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
