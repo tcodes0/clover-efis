@@ -318,6 +318,52 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>AddArguments</key>
+					<string>root=UUID=1016010e-7023-4886-a6b4-34733052fdd5 rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>vmlinuz-linux</string>
+					<key>Title</key>
+					<string>Maglinux</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>8D39DCEF-0D71-6044-A3A4-7F830AB6E543</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+				<dict>
+					<key>AddArguments</key>
+					<string>root=UUID=54a66fa3-6d48-4387-a2c0-a70989910ef1 rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Archlinux</string>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>vmlinuz-linux</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>DA1290B7-5036-4E42-A8AC-44E813BF03C5</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
