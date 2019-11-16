@@ -20,7 +20,8 @@ if [ ! "$FROM" ]; then
 fi
 
 if ! diskutil info "$DEVICE" | grep -q -E "Mounted:[ ]+Yes"; then
-  bailout "device not mounted"
+  echo "device not mounted, mounting..."
+  sudo diskutil mount "$DEVICE"
 fi
 MOUNTPOINT=$(diskutil info "$DEVICE" | sed -nE "/Mount\ Point/p" | sed -E "s/   Mount[ ]Point:[ ]+([^ ]+)/\1/g")
 if [ ! "$MOUNTPOINT" ]; then

@@ -27,6 +27,7 @@ If all 4 lines are there, it's the obvious indicator of working USB power under 
 ```
 
 seem to only have H_EC in dsdt and returning zero. Added ssdt-ec.
+working.
 
 ## sep 8
 
