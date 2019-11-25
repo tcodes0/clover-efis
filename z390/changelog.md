@@ -1,4 +1,9 @@
+## nov 25
+
+usb power, same as z170
+
 ## sep 14
+
 got ethernet and shutdown working, seems stable
 
 ## sep 13
