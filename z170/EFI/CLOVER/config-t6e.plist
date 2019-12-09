@@ -333,6 +333,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>TPLINK T6E PATCH</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>External icons patch</string>
 				<key>Disabled</key>
 				<false/>
