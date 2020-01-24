@@ -11,6 +11,10 @@ RSYNC="rsync -rtvvuc"
 z170_PATH="./z170/EFI/"
 z170_DEVICE="disk0s1"
 
+if [[ "$(uname -s)" =~ Linux ]]; then
+  bailout "no linux support"
+fi
+
 if ioreg -l | grep -q iMac17,1; then
   FROM="$z170_PATH"
   DEVICE="$z170_DEVICE"
