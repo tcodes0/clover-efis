@@ -236,6 +236,26 @@
 			<array>
 				<dict>
 					<key>AddArguments</key>
+					<string>root=UUID=a0822759-208c-4cc4-bf24-f13b27ac7697 rw add_efi_memmap initrd=/initramfs-linux.img video=1920x1080</string>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Prarch</string>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>vmlinuz-linux</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>DA1290B7-5036-4E42-A8AC-44E813BF03C5</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+				<dict>
+					<key>AddArguments</key>
 					<string>root=UUID=54a66fa3-6d48-4387-a2c0-a70989910ef1 rw add_efi_memmap initrd=/initramfs-linux.img video=1920x1080</string>
 					<key>Disabled</key>
 					<false/>
@@ -337,15 +357,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				gflSqgAAdSk=
-				</data>
+				<data>gflSqgAAdSk=</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AirPortBrcm4360</string>
 				<key>Replace</key>
-				<data>
-				gflSqgAAZpA=
-				</data>
+				<data>gflSqgAAZpA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
