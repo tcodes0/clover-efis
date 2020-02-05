@@ -10,6 +10,8 @@ set -x
 RSYNC="rsync -rtvvuc"
 z170_PATH="./z170/EFI/"
 z170_DEVICE="disk0s1"
+z390_PATH="./z390/EFI/"
+z390_DEVICE="disk0s1"
 
 if [[ "$(uname -s)" =~ Linux ]]; then
   bailout "no linux support"
@@ -18,6 +20,10 @@ fi
 if ioreg -l | grep -q iMac17,1; then
   FROM="$z170_PATH"
   DEVICE="$z170_DEVICE"
+fi
+if ioreg -l | grep -q iMac19,1; then
+  FROM="$z390_PATH"
+  DEVICE="$z390_DEVICE"
 fi
 if [ ! "$FROM" ]; then
   bailout "failed to detect motheboard folder to use"
@@ -35,6 +41,6 @@ if [ ! -d "${MOUNTPOINT}/EFI" ]; then
   bailout "mountpoint has no EFI folder"
 fi
 
-eval "$RSYNC $z170_PATH ${MOUNTPOINT}/EFI"
+eval "$RSYNC $FROM ${MOUNTPOINT}/EFI"
 
 set +x
