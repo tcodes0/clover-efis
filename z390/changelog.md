@@ -1,3 +1,7 @@
+## feb 05
+
+Add Prach boot entry
+
 ## nov 25
 
 usb power, same as z170
@@ -12,7 +16,6 @@ config-asus - config I was able to boot with before (args-device-smbios)
 config.plist - bare olarila config
 config-args-device - has args and devices from asus but no smbios
 config-device - has device but no args or smbios from asus
-
 
 ## sep 8
 
