@@ -156,7 +156,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -no_compat_check slide=0</string>
+		<string>dart=0 -no_compat_check slide=0 systemd.unit=graphical.target</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -278,7 +278,7 @@
 					<key>Type</key>
 					<string>Linux</string>
 					<key>Volume</key>
-					<string>8D39DCEF-0D71-6044-A3A4-7F830AB6E543</string>
+					<string>E9FEB4C6-DAC9-1F40-996F-23A861F5924F</string>
 					<key>VolumeType</key>
 					<string>Internal</string>
 				</dict>

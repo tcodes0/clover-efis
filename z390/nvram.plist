@@ -12,11 +12,11 @@
 	</data>
 	<key>SystemAudioVolume</key>
 	<data>
-	Nw==
+	QA==
 	</data>
 	<key>SystemAudioVolumeDB</key>
 	<data>
-	9w==
+	AA==
 	</data>
 	<key>csr-active-config</key>
 	<data>
@@ -108,9 +108,9 @@
 	<data>
 	Q29mZmVlIExha2UgaU1hYw==
 	</data>
-	<key>foo</key>
+	<key>prev-lang:kbd</key>
 	<data>
-	YmFy
+	ZW46LTE=
 	</data>
 	<key>security-mode</key>
 	<string>none</string>
