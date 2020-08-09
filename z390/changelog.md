@@ -1,6 +1,14 @@
+## aug 08
+
+New linux boot config
+Change file modes
+Misc changes
+
 ## feb 05
 
 Add Prach boot entry
+
+# 2020
 
 ## nov 25
 
