@@ -264,46 +264,6 @@
 			<array>
 				<dict>
 					<key>AddArguments</key>
-					<string>root=UUID=1016010e-7023-4886-a6b4-34733052fdd5 rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Hidden</key>
-					<false/>
-					<key>Ignore</key>
-					<false/>
-					<key>Path</key>
-					<string>vmlinuz-linux</string>
-					<key>Title</key>
-					<string>Maglinux</string>
-					<key>Type</key>
-					<string>Linux</string>
-					<key>Volume</key>
-					<string>8D39DCEF-0D71-6044-A3A4-7F830AB6E543</string>
-					<key>VolumeType</key>
-					<string>Internal</string>
-				</dict>
-				<dict>
-					<key>AddArguments</key>
-					<string>root=UUID=a0822759-208c-4cc4-bf24-f13b27ac7697 rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>Prach</string>
-					<key>Hidden</key>
-					<false/>
-					<key>Ignore</key>
-					<false/>
-					<key>Path</key>
-					<string>vmlinuz-linux</string>
-					<key>Type</key>
-					<string>Linux</string>
-					<key>Volume</key>
-					<string>E9FEB4C6-DAC9-1F40-996F-23A861F5924F</string>
-					<key>VolumeType</key>
-					<string>Internal</string>
-				</dict>
-				<dict>
-					<key>AddArguments</key>
 					<string>root=UUID=1daf4ba0-59aa-4c6f-81d2-24369ff8400e rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
 					<key>Disabled</key>
 					<false/>
