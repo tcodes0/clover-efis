@@ -264,7 +264,7 @@
 			<array>
 				<dict>
 					<key>AddArguments</key>
-					<string>root=UUID=1daf4ba0-59aa-4c6f-81d2-24369ff8400e rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
+					<string>root=UUID=1daf4ba0-59aa-4c6f-81d2-24369ff8400e rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080 amdgpu.ppfeaturemask=0xffffffff</string>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
@@ -284,7 +284,7 @@
 				</dict>
 				<dict>
 					<key>AddArguments</key>
-					<string>root=UUID=d5d7b3e3-1d4d-4040-9a80-be0e81171f51 rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
+					<string>root=UUID=d5d7b3e3-1d4d-4040-9a80-be0e81171f51 rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080 amdgpu.ppfeaturemask=0xffffffff</string>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
