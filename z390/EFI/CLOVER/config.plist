@@ -302,6 +302,46 @@
 					<key>VolumeType</key>
 					<string>Internal</string>
 				</dict>
+				<dict>
+					<key>AddArguments</key>
+					<string>root=UUID=1daf4ba0-59aa-4c6f-81d2-24369ff8400e rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Archlinux</string>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>vmlinuz-linux</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>A8B5D9CE-B348-2440-AB21-E72F6EA5FD88</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+				<dict>
+					<key>AddArguments</key>
+					<string>root=UUID=d5d7b3e3-1d4d-4040-9a80-be0e81171f51 rw add_efi_memmap initrd=/initramfs-linux.img video=2560x1080</string>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Archbak</string>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>vmlinuz-linux</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>84791F43-4914-F849-945E-384807986791</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
 			</array>
 		</dict>
 		<key>Mouse</key>
