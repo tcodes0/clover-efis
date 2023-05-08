@@ -1,3 +1,12 @@
+## mar 08
+
+Added hibernation kernel args
+no longer use macos on x86 so removing darwin boot args
+quiet boot flags for performance
+rm redundant boot args
+
+# 2023
+
 ## aug 08
 
 New linux boot config
