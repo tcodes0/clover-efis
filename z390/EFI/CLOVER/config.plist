@@ -156,7 +156,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>systemd.unit=graphical.target</string>
+		<string>systemd.unit=graphical.target quiet loglevel=3</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -264,7 +264,7 @@
 			<array>
 				<dict>
 					<key>AddArguments</key>
-					<string>root=UUID=1daf4ba0-59aa-4c6f-81d2-24369ff8400e rootflags=defaults,rw,noatime,compress=lzo quiet loglevel=3 add_efi_memmap initrd=/initramfs-linux.img video=2560x1440 amdgpu.ppfeaturemask=0xffffffff resume=/dev/nvme0n1p5 resume_offset=9565635</string>
+					<string>root=UUID=1daf4ba0-59aa-4c6f-81d2-24369ff8400e rootflags=defaults,rw,noatime,compress=lzo add_efi_memmap initrd=/intel-ucode.img initrd=/initramfs-linux.img video=2560x1440 amdgpu.ppfeaturemask=0xffffffff</string>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>

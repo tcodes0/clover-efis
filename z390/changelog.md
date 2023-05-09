@@ -1,3 +1,7 @@
+## mar 09
+
+removed resume args, added intelucode as initrd
+
 ## mar 08
 
 Added hibernation kernel args
