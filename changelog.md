@@ -1,6 +1,7 @@
 ## mar 09
 
 removed resume args, added intelucode as initrd
+deleted hackintosh stuff
 
 ## mar 08
 
